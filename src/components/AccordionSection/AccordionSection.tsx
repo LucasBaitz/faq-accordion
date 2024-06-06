@@ -17,7 +17,7 @@ const AccordionSection: React.FC<AccordionSectionProps> = ({
   return (
     <div className="my-5" onClick={() => setOpen(!open)}>
       <div className="w-full flex justify-between align-middle items-start">
-        <h3 className="text-base font-semibold transition ease-in-out duration-300 hover:text-[#A92BEA] cursor-pointer">
+        <h3 className="text-bas text-black font-semibold transition ease-in-out duration-300 hover:text-[#A92BEA] cursor-pointer">
           {title}
         </h3>
         <span className="cursor-pointer">
